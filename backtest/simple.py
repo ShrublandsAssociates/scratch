@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
-from algorithms.moving_average import run
+from backtest.algorithms.moving_average import run
 
 (stockReturn, algorithmReturn, results) = run(symbol = 'FB', startDate = '2012-01-01', endDate = '2013-01-01')
 results.emaShort
